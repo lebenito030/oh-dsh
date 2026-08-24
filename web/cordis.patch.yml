@@ -15,6 +15,10 @@
 # Electron-bound desktop shell chrome stays out; the marketplace host now
 # serves its bridge through the same webServer.
 
+- id: web-runtime
+  config:
+    openBrowser: false
+
 - insert:
     - id: oh-web
       name: '@oh-dsh/web'
